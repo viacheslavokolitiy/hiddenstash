@@ -1,4 +1,4 @@
-package org.satorysoft.todomvvm.kotlin.ui.viewmodel
+package org.satorysoft.todomvvm.ui.viewmodel
 
 import android.databinding.BaseObservable
 

@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <layout>
     <data>
-        <import type="org.satorysoft.todomvvm.kotlin.ui.viewmodel.MainActivityViewModel"/>
-
         <variable
             name="viewModel"
-            type="org.satorysoft.todomvvm.kotlin.ui.viewmodel.MainActivityViewModel"/>
+            type="org.satorysoft.todomvvm.ui.viewmodel.MainActivityViewModel"/>
     </data>
     <android.support.constraint.ConstraintLayout
         xmlns:android="http://schemas.android.com/apk/res/android"

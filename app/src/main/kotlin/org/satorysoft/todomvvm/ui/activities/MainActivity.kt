@@ -1,10 +1,12 @@
-package org.satorysoft.todomvvm.kotlin
+package org.satorysoft.todomvvm.ui.activities
 
 import android.databinding.DataBindingUtil
 import android.os.Bundle
 import android.support.v7.app.AppCompatActivity
-import org.satorysoft.todomvvm.kotlin.databinding.ActivityMainBinding
-import org.satorysoft.todomvvm.kotlin.ui.viewmodel.MainActivityViewModel
+import org.satorysoft.todomvvm.BR
+import org.satorysoft.todomvvm.R
+import org.satorysoft.todomvvm.databinding.ActivityMainBinding
+import org.satorysoft.todomvvm.ui.viewmodel.MainActivityViewModel
 
 class MainActivity : AppCompatActivity() {
     lateinit var mainActivityViewModel: MainActivityViewModel
