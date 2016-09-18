@@ -1,11 +1,12 @@
 apply plugin: 'com.android.application'
+apply plugin: 'com.google.gms.google-services'
 apply plugin: 'kotlin-android'
 
 android {
     compileSdkVersion 23
     buildToolsVersion "23.0.2"
     defaultConfig {
-        applicationId "org.satorysoft.todomvvm.kotlin"
+        applicationId "org.satorysoft.todomvvm"
         minSdkVersion 16
         targetSdkVersion 23
         versionCode 1
@@ -59,6 +60,10 @@ dependencies {
     compile 'org.jire.kton:KTON:1.0.1'
     kapt 'com.android.databinding:compiler:2.2.0-rc2'
     compile "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
+    compile 'com.google.firebase:firebase-core:9.4.0'
+    compile 'com.google.firebase:firebase-messaging:9.4.0'
+    compile 'com.google.firebase:firebase-crash:9.4.0'
+    compile 'com.google.firebase:firebase-auth:9.4.0'
 }
 repositories {
     mavenCentral()

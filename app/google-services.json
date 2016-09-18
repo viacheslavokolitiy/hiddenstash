@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "545177266772",
+    "firebase_url": "https://todomvvm.firebaseio.com",
+    "project_id": "todomvvm",
+    "storage_bucket": "todomvvm.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:545177266772:android:d35c4b4f03b87c56",
+        "android_client_info": {
+          "package_name": "org.satorysoft.todomvvm"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "545177266772-csplj174f052ab7ndtt4ckk6g7u4ehvh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDTKgXtUEquXaRFuPppYa2BRyO2z3-Ux9c"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

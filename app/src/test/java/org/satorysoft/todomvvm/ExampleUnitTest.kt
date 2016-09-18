@@ -1,4 +1,4 @@
-package org.satorysoft.todomvvm.kotlin
+package org.satorysoft.todomvvm
 
 import org.junit.Test
 

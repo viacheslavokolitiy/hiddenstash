@@ -1,4 +1,4 @@
-package org.satorysoft.todomvvm.kotlin
+package org.satorysoft.todomvvm
 
 import android.support.test.InstrumentationRegistry
 import android.support.test.runner.AndroidJUnit4
