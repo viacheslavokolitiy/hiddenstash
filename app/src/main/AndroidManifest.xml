@@ -15,6 +15,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <activity android:name=".ui.activities.RegistrationActivity"
+            android:screenOrientation="portrait"
+            android:label="@string/label_sign_up"/>
     </application>
 
 </manifest>
