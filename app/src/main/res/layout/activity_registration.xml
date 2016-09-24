@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <layout>
     <data>
+        <import type="android.view.View"/>
         <variable
             name="registrationViewModel"
             type="org.satorysoft.todomvvm.ui.viewmodel.RegistrationViewModel"/>
@@ -44,7 +45,7 @@
                     android:id="@+id/btn_register"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:enabled="@{registrationViewModel.isFormValid()}"
+                    android:enabled="@{registrationViewModel.userEmailValid &amp;&amp; registrationViewModel.userPasswordValid}"
                     android:text="@string/btn_sign_up"/>
                 <TextView
                     android:id="@+id/tv_login_link"

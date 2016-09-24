@@ -1,8 +1,6 @@
 package org.satorysoft.todomvvm.ui.viewmodel
 
-import android.databinding.BaseObservable
-import android.databinding.Bindable
-import android.databinding.ObservableBoolean
+import android.databinding.*
 import org.satorysoft.todomvvm.BR
 
 /**
@@ -11,14 +9,26 @@ import org.satorysoft.todomvvm.BR
 class RegistrationViewModel : BaseObservable() {
 
     @Bindable
-    private var formValid: ObservableBoolean = ObservableBoolean(false)
+    private var userEmailValid: ObservableBoolean = ObservableBoolean(false)
 
-    fun isFormValid(): ObservableBoolean {
-        return formValid
+    @Bindable
+    private var userPasswordValid: ObservableBoolean = ObservableBoolean(false)
+
+    fun getUserEmailValid(): ObservableBoolean {
+        return userEmailValid
     }
 
-    fun setFormValid(formValid: ObservableBoolean) {
-        this.formValid = formValid
-        notifyPropertyChanged(BR.formValid)
+    fun getUserPasswordValid(): ObservableBoolean {
+        return userPasswordValid
+    }
+
+    fun setUserEmailValid(userEmailValid: ObservableBoolean) {
+        this.userEmailValid = userEmailValid
+        notifyPropertyChanged(BR.userEmailValid)
+    }
+
+    fun setUserPasswordValid(userPasswordValid: ObservableBoolean){
+        this.userPasswordValid = userPasswordValid
+        notifyPropertyChanged(BR.userPasswordValid)
     }
 }
