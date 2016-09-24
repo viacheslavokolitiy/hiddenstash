@@ -35,7 +35,7 @@ class RegistrationActivity : AppCompatActivity() {
 
         binding = DataBindingUtil.setContentView(this, R.layout.activity_registration)
 
-        registrationViewModel = RegistrationViewModel()
+        registrationViewModel = RegistrationViewModel(this)
 
         binding.setVariable(BR.registrationViewModel, registrationViewModel)
 
@@ -60,7 +60,7 @@ class RegistrationActivity : AppCompatActivity() {
     }
 
     private fun createUser(userEmail: String, userPassword: String) {
-        throw UnsupportedOperationException("not implemented")
+        registrationViewModel.createUserId(userEmail, userPassword);
     }
 
     private fun validateUserPassword(userPassword: String) {
